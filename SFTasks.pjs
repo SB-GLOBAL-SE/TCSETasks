@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{C550FF85-F222-4651-9235-57B71C8AA8D9}">
+	<children>
+		<child name="SFTasks" key="{93E2E2B2-394E-4DEB-8E5A-B35B25D9DB52}" path="SFTasks\SFTasks.mds" />
+	</children>
+	<testItems key="{25CAB020-ED90-4872-BBDA-469B82DD2D22}">
+		<children>
+			<testItem key="{93E2E2B2-394E-4DEB-8E5A-B35B25D9DB52}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{2AFD4C86-813B-4762-AA8D-B90D79C660F5}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{B7C84168-7E88-4BBF-A339-29000DD39779}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

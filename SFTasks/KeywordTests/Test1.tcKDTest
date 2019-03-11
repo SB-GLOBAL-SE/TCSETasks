@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{CE7C0B51-998C-407F-8D5D-55FB556F0F02}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{CAAA7522-FB54-4521-BF2F-29D327FC9341}">
+				<Data Description="A user form object." Action="SubmitSETask" InvokeKind="1">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="UserForms;" />
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="showForm" Unit="FormScripts" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{18831040-AF17-45BE-BF4B-8FA48DEAB906}" />
+	<Parameters Key="{E84A4A85-9D95-47A4-A165-5C7F31522FFE}" />
+</Root>
