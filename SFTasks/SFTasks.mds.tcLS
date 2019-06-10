@@ -30,43 +30,67 @@
 						<Prp name="name" type="S" value="Username"/>
 					</Node>
 					<Node name="var1">
-						<Prp name="name" type="S" value="Password"/>
+						<Prp name="name" type="S" value="OppCode"/>
 					</Node>
 					<Node name="var10">
-						<Node name="value">
-							<Prp name="strvalue" type="H" value="31002E00200054006500630068006E006900630061006C0020004600690074000D000A0032002E002000410075006400690065006E0063006500200069006E0074006500720061006300740069006F006E000D000A0033002E002000420061006400200070006F0069006E00740073000D000A0034002E002000480061007600650020007400680065007900200075007300650064002000740068006500200074006F006F006C00200074006F00200064006100740065000D000A0035002E00200047007500740020006600650065006C000D000A00"/>
-						</Node>
-						<Prp name="name" type="S" value="DefaultCommentText"/>
-					</Node>
-					<Node name="var11">
 						<Node name="value">
 							<Prp name="strvalue" type="H" value="680074007400700073003A002F002F006E006100370039002E00730061006C006500730066006F007200630065002E0063006F006D00"/>
 						</Node>
 						<Prp name="name" type="S" value="SFUR"/>
 					</Node>
-					<Node name="var2">
-						<Prp name="name" type="S" value="OppCode"/>
+					<Node name="var11">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="38003900360031003900330044003100460034004400380034004200460036003900340039004100450037003900310034003200460045003800330037004400300045003100440035004100370041004600340030003300310043003600430037003800370044004400370034003400"/>
+						</Node>
+						<Prp name="name" type="S" value="Password"/>
 					</Node>
-					<Node name="var3">
+					<Node name="var12">
+						<Prp name="name" type="S" value="DDTOppCode"/>
+					</Node>
+					<Node name="var13">
+						<Prp name="name" type="S" value="DDTContact"/>
+					</Node>
+					<Node name="var14">
+						<Prp name="name" type="S" value="DDTSalesRep"/>
+					</Node>
+					<Node name="var15">
+						<Prp name="name" type="S" value="DDTProduct"/>
+					</Node>
+					<Node name="var16">
+						<Prp name="name" type="S" value="DDTTaskType"/>
+					</Node>
+					<Node name="var17">
+						<Prp name="name" type="S" value="DDTDueDate"/>
+					</Node>
+					<Node name="var18">
+						<Prp name="name" type="S" value="DDTCommentText"/>
+					</Node>
+					<Node name="var2">
 						<Prp name="name" type="S" value="Contact"/>
 					</Node>
-					<Node name="var4">
+					<Node name="var3">
 						<Prp name="name" type="S" value="SalesRep"/>
 					</Node>
-					<Node name="var5">
+					<Node name="var4">
 						<Prp name="name" type="S" value="Product"/>
 					</Node>
-					<Node name="var6">
+					<Node name="var5">
 						<Prp name="name" type="S" value="TaskType"/>
 					</Node>
-					<Node name="var7">
+					<Node name="var6">
 						<Prp name="name" type="S" value="DueDate"/>
 					</Node>
-					<Node name="var8">
+					<Node name="var7">
 						<Prp name="name" type="S" value="TempType"/>
 					</Node>
-					<Node name="var9">
+					<Node name="var8">
 						<Prp name="name" type="S" value="CommentText"/>
+					</Node>
+					<Node name="var9">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="31002E00200054006500630068006E006900630061006C0020004600690074000D000A0032002E002000410075006400690065006E0063006500200069006E0074006500720061006300740069006F006E000D000A0033002E002000420061006400200070006F0069006E00740073000D000A0034002E002000480061007600650020007400680065007900200075007300650064002000740068006500200074006F006F006C00200074006F00200064006100740065000D000A0035002E00200047007500740020006600650065006C000D000A00"/>
+						</Node>
+						<Prp name="name" type="S" value="DefaultCommentText"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="3"/>

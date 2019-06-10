@@ -33,3 +33,11 @@ function translateProductCode(product)
   
 }
 
+function setProjectDate(dateString)
+{
+  if ( dateString == -700000 ) { 
+      Project.Variables.DueDate = aqConvert.DateTimeToFormatStr(aqDateTime.Today(), "%m/%d/%Y");
+    } else {
+      Project.Variables.DueDate = aqConvert.DateTimeToFormatStr(UserForms.SubmitSETask.DueDate.Date, "%m/%d/%Y");
+    };
+}

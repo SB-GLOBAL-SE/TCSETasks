@@ -19,9 +19,6 @@
 				<Variable Name="Username" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
 					<DefValue />
 				</Variable>
-				<Variable Name="Password" Type="{B06407F3-6641-45A9-9692-DDE5B231F2CD}" Local="False">
-					<DefValue StrValue="380039003600310039003300440030004600340044003800460033004600330031003400390039004400460039003000440041004600380046004200370042003800450031004400390041003700430042003400360037004500450041003000370036004200420043004200300045003300360033003500" />
-				</Variable>
 				<Variable Name="OppCode" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
 					<DefValue />
 				</Variable>
@@ -52,11 +49,35 @@
 				<Variable Name="SFUR" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
 					<DefValue StrValue="680074007400700073003A002F002F006E006100370039002E00730061006C006500730066006F007200630065002E0063006F006D00" />
 				</Variable>
+				<Variable Name="Password" Type="{B06407F3-6641-45A9-9692-DDE5B231F2CD}" Local="True">
+					<DefValue StrValue="38003900360031003900330044003100460034004400380034004200460036003900340039004100450037003900310034003200460045003800330037004400300045003100440035004100370041004600340030003300310043003600430037003800370044004400370034003400" />
+				</Variable>
+				<Variable Name="DDTOppCode" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTContact" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTSalesRep" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTProduct" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTTaskType" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTDueDate" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="DDTCommentText" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
 			</Items>
 		</data>
 	</variables>
 	<settings key="{FF6A3219-E241-4006-A8B5-2711260A26CD}">
-		<settingsVersion value="14.0" />
+		<settingsVersion value="14.10" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -97,12 +118,23 @@
 				<row val0="64-bit" />
 			</data>
 		</setting>
-		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="9" colIndex="1">
 			<columns>
 				<column type="5" enabled="True" />
 				<column type="1" enabled="True" />
 			</columns>
-			<data />
+			<data>
+				<row val0="Microsoft.Office.Interop.Excel, version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" val1="True" />
+				<row val0="Microsoft.Office.Tools.Common.v9.0, version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools.Excel.v9.0, version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.VisualBasic, version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools.Common, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools.Common.Implementation, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools.Excel, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.Office.Tools.Excel.Implementation, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+				<row val0="Microsoft.VisualBasic, version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" val1="True" />
+			</data>
 		</setting>
 		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
 		<setting name="DbgServices_Active" type="1" value="True" />
@@ -651,6 +683,28 @@
 		</setting>
 		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
 		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="Cycle 1" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="dermot.canniffe@smartbear.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A02A04910AF42FD14C60A9638B4CF667A30D3491529CDC4955F74D0E6B1D911BE0DB49FE0F6D26161476F60240FF62437DA86B230190CE0" />
+		<setting name="ZFJ_JiraProject" type="5" value="Galway" />
+		<setting name="ZFJ_JiraUrl" type="5" value="https://smartbeardemo.atlassian.net" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="Mjg2ZmIyMjUtMWY5Zi0zYzUzLTg5MDgtZDU1YzAzYzg5NDM3IDViM2I3YjQzMjA1NzIwMmRmMzRkNzNmZiBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="YggRdkh8jMLTVBNPJOyae0GGOEhgPOkCgzQGTpe5d_I" />
 	</settings>
 	<analysis key="{0B169D83-0BF2-4071-A722-676961A21DC9}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
@@ -662,6 +716,7 @@
 				<Fields>
 					<Field ItemId="{74794864-3FCE-4920-9E8E-15C3BB29953F}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="New Bug From TestComplete" DBFieldName="Title" Alias="Subject" />
 					<Field ItemId="{3126795D-30AC-4673-B332-BAAE0CD82EAD}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="Bug Description" DBFieldName="Description" Alias="Description" />
+					<Field ItemId="{CC6B49F3-F2CB-4069-B447-151B88ED12E0}" AliasIsRequired="False" DBFieldNameIsRequired="False" Value="" DBFieldName="Reason" Alias="Reason" />
 				</Fields>
 			</Template>
 		</Templates>

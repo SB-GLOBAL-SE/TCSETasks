@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
 	<children>
-		<child name="Test1" key="{FC780D73-796B-484C-9A80-B5EC3B6C8BB2}" path="Test1.tcKDTest" />
-		<child name="Test2" key="{C209C0D7-BAB6-4948-9A84-3BF3E8AF7126}" path="Test2.tcKDTest" />
 		<child name="SETaskSubmit" key="{3DE3FA84-6CD9-478F-8CE6-4A55441FDF7F}" path="SETaskSubmit.tcKDTest" />
-		<child name="Test4" key="{8D00E2CF-6095-4CEE-B6F8-9F1137D6DE13}" path="Test4.tcKDTest" />
-		<child name="Test5" key="{25B9DF94-3E3F-4FD2-A4E3-C0B4D9289E01}" path="Test5.tcKDTest" />
+		<child name="OldSETasks" key="{73A11DCF-36FA-4025-9D20-95DEAB142B3A}" path="OldSETasks.tcKDTest" />
+		<child name="LoginToSalesForce" key="{17924F52-E131-4D9B-91CD-387409FA85FC}" path="LoginToSalesForce.tcKDTest" />
+		<child name="SubmitProcess" key="{74400839-4984-4F7D-8E5F-4317A69014AC}" path="SubmitProcess.tcKDTest" />
+		<child name="AppendDetailsToLogFile" key="{E54D0D66-E336-4828-95EB-B837D84E2ADD}" path="AppendDetailsToLogFile.tcKDTest" />
+		<child name="LogTask" key="{1CD1DF52-A579-40E5-8E84-CA39769F57B8}" path="LogTask.tcKDTest" />
+		<child name="SetupVariables" key="{817AD42D-AC9E-47D8-9B26-C94925289709}" path="SetupVariables.tcKDTest" />
 	</children>
 </Root>

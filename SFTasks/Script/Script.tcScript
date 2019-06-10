@@ -4,5 +4,6 @@
 		<child name="HelperFunctions" key="{8771F8E9-5626-4757-8E04-442422973B28}" path="HelperFunctions.js" />
 		<child name="FormScripts" key="{6B7371A8-45C5-4B74-BBED-5181BC201BF1}" path="FormScripts.js" />
 		<child name="testUnit" key="{D667A984-230E-4265-918B-96CB8267E0DB}" path="testUnit.js" />
+		<child name="ExcelFunctions" key="{AD167782-2FCA-4C4C-8EFA-770E4C6FC05E}" path="ExcelFunctions.js" />
 	</children>
 </Root>

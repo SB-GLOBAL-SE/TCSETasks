@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{76923700-8875-4E78-AF97-4A212AA125A1}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="showForm" Unit="FormScripts">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SetupVariables">
+					<CommonData Disabled="True" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="LoginToSalesForce" />
+			</Operation>
+			<Operation Type="{94838C49-976F-4128-8B05-4E7C3E9C579D}">
+				<Data VariableType="4" VariableName="DataSource">
+					<Records FromBegin="True" ToEnd="True" StartRecord="1" StopIndex="1" />
+				</Data>
+				<Children>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="OppCode">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="OppCode">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="Contact">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sales Rep">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="SalesRep">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Sales Rep">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="Product">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Product Family">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="TaskType">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Task Type">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="DueDate">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Due Date">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+						<Data VariableType="2" VariableName="CommentText">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="NewValue" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="DataSource">
+									<ArrayIndexes LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+										<Parameter Name="Column" DefVarType="0" VarType="8" ValueType="6" ValueValue="Call Comments:">
+											<Values>
+												<Value Type="6" Value="Company" Text="Company" />
+												<Value Type="6" Value="OppCode" Text="OppCode" />
+												<Value Type="6" Value="Sales Rep" Text="Sales Rep" />
+												<Value Type="6" Value="Due Date" Text="Due Date" />
+												<Value Type="6" Value="Task Type" Text="Task Type" />
+												<Value Type="6" Value="Product Family" Text="Product Family" />
+												<Value Type="6" Value="Call Comments:" Text="Call Comments:" />
+											</Values>
+										</Parameter>
+									</ArrayIndexes>
+								</Parameter>
+							</Parameters>
+						</Data>
+					</Operation>
+					<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+						<Data Description="Runs a keyword test." TestName="LogTask" />
+					</Operation>
+					<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+						<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+							<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+								<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.OpportunityPage.RecentActivitiesPanel.RecentActivitiesList.tableList.cellDatacell" />
+								<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+								<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="6" />
+								<Parameter Name="Value" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="Product" />
+								<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+							</Parameters>
+						</Data>
+					</Operation>
+				</Children>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{F98BB4E1-682D-40B5-B396-FDF773D76124}">
+		<Items>
+			<Variable Name="DataSource" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+				<DefValue Kind="{94ACFE87-8AC5-4220-8268-52323FBEB9FB}">
+					<ConnectionInfo FileName="..\..\..\SFTasks.xlsx" Table="TaskDetails$" HasColumnNames="True" />
+				</DefValue>
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{F666A6F3-6D90-4BEB-BDAD-F34DC1EE25E0}" />
+</Root>
